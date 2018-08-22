@@ -21,11 +21,11 @@ public class MainActivity extends Activity implements View.OnClickListener{
     }
 
     private void repalceFragment(Fragment fragment) {
-        FragmentManager fragmentManager=getFragmentManager();
-        FragmentTransaction transaction=fragmentManager.beginTransaction();
-        transaction.replace(R.id.right_layout, fragment);
-        transaction.addToBackStack(null);
-        transaction.commit();
+//        FragmentManager fragmentManager=getFragmentManager();
+//        FragmentTransaction transaction=fragmentManager.beginTransaction();
+//        transaction.replace(R.id.right_layout, fragment);
+//        transaction.addToBackStack(null);
+//        transaction.commit();
     }
 
     @Override
